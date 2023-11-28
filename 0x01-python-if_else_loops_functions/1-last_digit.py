@@ -2,7 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 str1 = "Last digit of "
-ld = number mod 1000
+ld = number % 1000
 if ld > 5:
     str2 = " and is greater than 5\n"
 elif ld == 0:
