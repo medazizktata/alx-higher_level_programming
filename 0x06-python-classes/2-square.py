@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Define Square class"""
+"""Define a Square"""
 class Square:
     def __init__(self, size=0):
         """Represent a square
-        Args: size=0 """
+        args: size=0 """
         if size < 0:
             raise ValueError("size must be an integer")
         if not (isinstance(size, int)):
